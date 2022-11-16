@@ -46,6 +46,21 @@
   pointer-events: none;
 }
 
+  ::-webkit-scrollbar {
+    width: 2em;
+    height: 2em
+}
+::-webkit-scrollbar-button {
+    background: #ccc
+}
+::-webkit-scrollbar-track-piece {
+    background: #888
+}
+::-webkit-scrollbar-thumb {
+    background: #eee
+}
+
+
 @media screen and (max-width: 950px) {
   #loader .indicator .number {
     font-size: 7em;
