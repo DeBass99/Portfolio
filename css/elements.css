@@ -42,6 +42,10 @@
   font-weight: bold;
 }
 
+.journal{
+  pointer-events: none;
+}
+
 @media screen and (max-width: 950px) {
   #loader .indicator .number {
     font-size: 7em;
@@ -941,7 +945,7 @@ ul.comments li.comment ul.comments li.comment .comment-body p {
 }
 
 .bg.faded {
-  opacity: .5;
+  opacity: .3;
 }
 
 /* Footer */
